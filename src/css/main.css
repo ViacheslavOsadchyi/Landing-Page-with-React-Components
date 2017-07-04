@@ -1,0 +1,6 @@
+@import 'reset-css/reset.css';
+body{
+	background-image: linear-gradient(to bottom, #fff, black);
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
