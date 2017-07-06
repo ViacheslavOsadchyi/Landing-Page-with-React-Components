@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url(../../dist/assets/fonts/PTS55F.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PT Sans";
+    src: url(../../dist/assets/fonts/PTS56F.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "PT Sans";
+    src: url(../../dist/assets/fonts/PTS75F.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PT Sans";
+    src: url(../../dist/assets/fonts/PTS76F.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+body{
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 21px;
+    color: $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: $caption-color;
+    font-weight: 700;
+}
+h1,
+h2,
+h3{
+    line-height: 1;
+}
+h4,
+h5,
+h6{
+    line-height: 1.2;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-bottom: 20px
+}
