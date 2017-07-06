@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styles" transform="translate(-854.000000, -511.000000)" fill="#76D48F">
+            <g id="Authorize-Sign-Up-Success" transform="translate(0.000000, 400.000000)">
+                <g id="Authorize-Drop-Down" transform="translate(744.000000, 20.000000)">
+                    <path d="M150,91 C127.92,91 110,108.92 110,131 C110,153.08 127.92,171 150,171 C172.08,171 190,153.08 190,131 C190,108.92 172.08,91 150,91 L150,91 Z M142,151 L122,131 L127.64,125.36 L142,139.68 L172.36,109.32 L178,115 L142,151 L142,151 Z" id="icn-check"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

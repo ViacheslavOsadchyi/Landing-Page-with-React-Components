@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-login</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styles" transform="translate(-784.000000, -90.000000)">
+            <g id="Header-Sign-Up">
+                <g id="Authorize-Drop-Down" transform="translate(744.000000, 20.000000)">
+                    <g id="F2-Nickname" transform="translate(10.000000, 50.000000)">
+                        <g transform="translate(10.000000, 10.000000)" id="enter-male">
+                            <g>
+                                <g id="icn-login" transform="translate(20.000000, 10.000000)">
+                                    <polygon id="container" points="0 0 20 0 20 20 0 20"></polygon>
+                                    <path d="M17.3520717,15.08 C14.485405,14.4183333 11.8187383,13.8383333 13.110405,11.3983333 C17.0437383,3.97166667 14.1520717,0 10.000405,0 C5.76540501,0 2.94707168,4.125 6.89040501,11.3983333 C8.22123835,13.8525 5.45290501,14.4316667 2.64873835,15.08 C0.0879050149,15.6716667 -0.00792831848,16.9433333 0.000405014856,19.1666667 C0.000405014856,19.4308333 0.00373834819,19.7083333 0.00373834819,20 L19.995405,20 C19.995405,19.7183333 19.997905,19.4483333 19.9987383,19.1916667 C20.0087383,16.9525 19.9220717,15.675 17.3520717,15.08 L17.3520717,15.08 Z" id="icn-User,-name,-profile" fill="#B0BEC5"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

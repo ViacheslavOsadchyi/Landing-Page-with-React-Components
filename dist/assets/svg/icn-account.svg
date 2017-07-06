@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-account</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Frontend-Test-320" transform="translate(-213.000000, -20.000000)">
+            <g id="Header">
+                <g id="Authorize" transform="translate(193.000000, 0.000000)">
+                    <g id="icn-account" transform="translate(20.000000, 20.000000)">
+                        <rect id="cont" fill="#D8D8D8" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                        <path d="M10,0 C4.4775,0 0,4.4775 0,10 C0,15.5225 4.4775,20 10,20 C15.5225,20 20,15.5225 20,10 C20,4.4775 15.5225,0 10,0 L10,0 Z M16.4608333,15.2541667 C16.2441667,14.7658333 15.8025,14.4291667 14.9025,14.2208333 C12.9908333,13.7791667 11.2108333,13.3925 12.0741667,11.7658333 C14.6941667,6.81333333 12.7666667,4.16666667 10,4.16666667 C7.17666667,4.16666667 5.29666667,6.91666667 7.925,11.7666667 C8.81416667,13.4025 6.96916667,13.7883333 5.09833333,14.22 C4.195,14.4283333 3.75833333,14.7683333 3.5425,15.2583333 C2.32843771,13.7749464 1.66559546,11.916868 1.66666667,10 C1.66666667,5.405 5.405,1.66666667 10,1.66666667 C14.595,1.66666667 18.3333333,5.405 18.3333333,10 C18.3333333,11.9916667 17.6291667,13.8191667 16.4608333,15.2541667 L16.4608333,15.2541667 Z" id="icn-profile,-user,-account" fill="#2196F3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -25,6 +25,10 @@ module.exports = {
 			{
 				test: 	/\.jade/,
 				loader: 'jade-loader'
+			},
+			{
+				test: 	/\.ttf/,
+				loader: 'file-loader'
 			}
 		]
 	},

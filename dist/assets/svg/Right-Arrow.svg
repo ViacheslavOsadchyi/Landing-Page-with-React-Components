@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="20px" viewBox="0 0 12 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Right-Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styles" transform="translate(-282.000000, -122.000000)" fill="#78909C">
+            <g id="Right-Arrow" transform="translate(282.000000, 112.000000)">
+                <g transform="translate(0.000000, 10.000000)" id="AR2">
+                    <path d="M-1.1937428,4.68200062 C-1.76727544,4.10846797 -2.72722703,4.10002103 -3.31409726,4.68689126 C-3.88380408,5.25659808 -3.90315711,6.22307653 -3.31898791,6.80724573 L5.19177383,15.3180075 C5.47774357,15.6039772 5.85978209,15.7494593 6.24374081,15.7507062 C6.62970607,15.7504878 7.01598776,15.6092574 7.30723764,15.3180075 L15.8179994,6.80724573 C16.391532,6.23371309 16.399979,5.2737615 15.8131087,4.68689126 C15.2434019,4.11718445 14.2769235,4.09783141 13.6927543,4.68200062 L6.24950574,12.1252492 L-1.1937428,4.68200062 Z" transform="translate(6.250706, 10.000000) scale(-1, 1) rotate(90.000000) translate(-6.250706, -10.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

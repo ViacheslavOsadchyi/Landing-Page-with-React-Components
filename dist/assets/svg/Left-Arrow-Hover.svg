@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="20px" viewBox="0 0 12 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Left-Arrow-Hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styles" transform="translate(-120.000000, -122.000000)" fill="#FFFFFF">
+            <g id="Left-Arrow" transform="translate(40.000000, 112.000000)">
+                <g id="Left-Arrow-Hover" transform="translate(80.000000, 10.000000)">
+                    <path d="M5.74950574,12.1252492 L-1.6937428,4.68200062 C-2.26727544,4.10846797 -3.22722703,4.10002103 -3.81409726,4.68689126 C-4.38380408,5.25659808 -4.40315711,6.22307653 -3.81898791,6.80724573 L4.69177383,15.3180075 C4.97774357,15.6039772 5.35978209,15.7494593 5.74374081,15.7507062 C6.12970607,15.7504878 6.51598776,15.6092574 6.80723764,15.3180075 L15.3179994,6.80724573 C15.891532,6.23371309 15.899979,5.2737615 15.3131087,4.68689126 C14.7434019,4.11718445 13.7769235,4.09783141 13.1927543,4.68200062 L5.74950574,12.1252492 L5.74950574,12.1252492 Z" id="Arrow-left" transform="translate(5.750706, 10.000000) rotate(90.000000) translate(-5.750706, -10.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
