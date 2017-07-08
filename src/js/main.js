@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Slider from '../containers/Slider';
+import SliderApp from '../containers/SliderApp';
 import main from '../css/main.css';
 
 let sliderNodes = document.querySelectorAll('.slider'),
 	slides = [
 		{
-			title: 	'Guillermo - Life & Business Coaching WordPress Theme',
-			desc: 	'Check out Monstroid, the number 1 TemplateMonster’s WordPress theme' + 
-					' from over 2000 themes. Monstroid has been used to create more than 5000' + 
-					' websites, and help hundreds of people launch their businesses online,' + 
-					' so join the ranks of happy Monstroid owners!',
-			img: 	'/assets/screenshots/slide-1.png'
+			title: 		'Guillermo - Life & Business Coaching WordPress Theme',
+			desc: 		'Check out Monstroid, the number 1 TemplateMonster’s WordPress theme' + 
+						' from over 2000 themes. Monstroid has been used to create more than 5000' + 
+						' websites, and help hundreds of people launch their businesses online,' + 
+						' so join the ranks of happy Monstroid owners!',
+			img: 		'/assets/screenshots/slide-1.png',
+			extraClass: 'guillermo'
 		},
 		{
 			title: 	'Jedi - MAY THE JOOMLA BE WITH YOU',
@@ -31,8 +32,8 @@ let sliderNodes = document.querySelectorAll('.slider'),
 	],
 	i;
 
-/*Array.prototype.forEach.call(sliderNodes, (el)=>{
-	ReactDOM.render(<Slider slides={slides} />, el);
-})*/
+Array.prototype.forEach.call(sliderNodes, (el)=>{
+	ReactDOM.render(<SliderApp slides={slides} />, el);
+})
 
 

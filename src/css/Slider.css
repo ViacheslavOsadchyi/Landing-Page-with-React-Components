@@ -1,0 +1,67 @@
+/** variables are listed here */
+@import 'vars.css';
+
+.tmtestSlider{
+	position: relative;
+	overflow: hidden;
+}
+.tmtestSlider__slides{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;	
+}
+.tmtestSlider__slides{
+	transform: translate3d(-100%,0,0);
+}
+.tmtestSlider__slidesMovingTransition{
+	transition: transform 0.5s $easeInOutBack;
+}
+.tmtestSlider__slides.tmtestSlider__slides__move_backward{
+	transform: translate3d(0,0,0);
+}
+.tmtestSlider__slides.tmtestSlider__slides__move_forward{
+	transform: translate3d(-200%,0,0);
+}
+.tmtestSlider__slide{
+	flex: 1 0 100%;
+}
+.tmtestSlider__slideMarkup{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	max-width: 734px;
+	margin: 0 auto;
+}
+.tmtestSlider__slideTitle{
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.tmtestSlider__slideDesc{
+	color: $caption-color;
+}
+.tmtestSlider__slideImgHolder{
+	padding-top: 40px;
+}
+
+.tmtestSlider__slide.tmtestSlider__slide__guillermo .tmtestSlider__slideTitle{
+	max-width: 320px;
+}
+
+.tmtestSlider__control{
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+.tmtestSlider__control object{
+	display: block;
+}
+.tmtestSlider__controlBackward{
+	left: 0;
+}
+.tmtestSlider__controlForward{
+	right: 0;
+}
