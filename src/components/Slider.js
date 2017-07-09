@@ -1,6 +1,6 @@
 import React from 'react';
-import Slides from '../components/Slides';
-import SliderControls from '../components/SliderControls';
+import Slides from '../containers/Slides';
+import SliderControls from '../containers/SliderControls';
 
 function Slider(props) {
 	return 	<div className="tmtestSlider">

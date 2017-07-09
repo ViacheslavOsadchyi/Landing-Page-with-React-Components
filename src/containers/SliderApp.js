@@ -3,7 +3,7 @@ import {createStore,applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
 import reducer, {initialState} from '../reducers/sliderReducer';
-import Slider from './Slider';
+import Slider from '../components/Slider';
 
 import SliderStyles from '../css/Slider.css';
 

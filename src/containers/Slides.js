@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import Slide from './Slide';
+import Slide from '../components/Slide';
 import swipedetect from '../js/swipedetect.js';
 import {moveForward,moveBackward} from '../actions/sliderActions';
 
