@@ -1,13 +1,24 @@
 import React, {Component} from 'react';
-import {createStore} from 'redux';
+import {createStore,applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
-import reducer from '../reducers/sliderReducer';
+import thunk from 'redux-thunk';
+import reducer, {initialState} from '../reducers/sliderReducer';
 import Slider from './Slider';
+
+import SliderStyles from '../css/Slider.css';
 
 class SliderApp extends Component {
 	constructor(props){
 		super(props);
-		this.store = createStore(reducer);
+		this.initialState = Object.assign({},initialState);
+
+		// needed for next slide index calculations
+		this.initialState.slides.lastSlideIndex = this.props.slides.length - 1;
+		this.store = createStore(
+			reducer,
+			this.initialState,
+			applyMiddleware(thunk)
+		);
 	}
 	render(){
 		return (

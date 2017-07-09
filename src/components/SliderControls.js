@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import {moveForward,moveBackward} from '../actions/sliderActions';
 
 class SliderControls extends Component {
 	componentDidMount () {
@@ -32,15 +34,26 @@ class SliderControls extends Component {
 					</div>
 					<div className="tmtestSlider__control tmtestSlider__controlForward" ref={(controlForward)=>{
 						this.controlForward = controlForward;
-					}} onClick={()=> {						
+					}} onClick={()=> {		
 						moveForward();
 					}}>
 						<img ref={(controlForwardImg)=>{
 							this.controlForwardImg = controlForwardImg;
-						}} src="/assets/svg/Right-Arrow-withHover.svg" alt />						
+						}} src="/assets/svg/Right-Arrow.svg" alt />						
 					</div>
 				</div>
 	}
 }
 
-export default SliderControls;
+function mapDispatchToProps (dispatch) {
+	return {
+		moveForward: function() {
+			dispatch(moveForward());
+		},
+		moveBackward: function() {
+			dispatch(moveBackward());
+		}
+	}
+}
+
+export default connect(null,mapDispatchToProps)(SliderControls);
