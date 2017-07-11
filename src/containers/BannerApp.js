@@ -3,17 +3,14 @@ import {createStore,applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
 import reducer, {initialState} from '../reducers/sliderReducer';
-import Slider from '../components/Slider';
+import Banner from '../components/Banner';
 
-import sliderStyles from '../css/sliderApp.css';
+import bannerStyles from '../css/bannerApp.css';
 
-class SliderApp extends Component {
+class BannerApp extends Component {
 	constructor(props){
 		super(props);
 		this.initialState = Object.assign({},initialState);
-
-		// needed for next slide index calculations
-		this.initialState.slides.lastSlideIndex = this.props.slides.length - 1;
 		this.store = createStore(
 			reducer,
 			this.initialState,
@@ -23,10 +20,10 @@ class SliderApp extends Component {
 	render(){
 		return (
 			<Provider store={this.store}>
-				<Slider {...this.props} />
+				<Banner {...this.props} />
 			</Provider>
 		);
 	}
 }
 
-export default SliderApp;
+export default BannerApp;

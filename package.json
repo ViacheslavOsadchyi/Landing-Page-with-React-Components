@@ -27,6 +27,7 @@
     "html-webpack-plugin": "^2.29.0",
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
+    "postcss-js": "^1.0.0",
     "postcss-loader": "^2.0.6",
     "precss": "^2.0.0",
     "react": "^15.6.1",

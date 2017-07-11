@@ -1,0 +1,37 @@
+.tmtestBanner{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	background-image: linear-gradient(to bottom,#26343B 0%, #4E646D 100%);
+	color: #fff;
+}
+.tmtestBanner__content{
+	width: 50%;
+	padding: 105px 0 108px;
+	flex: 1 0 50%;
+}
+.tmtestBanner__prlxScene{
+	position: relative;
+	flex: 0 1 100%;
+	overflow: hidden;
+}
+.tmtestBanner__prlxSceneContainer{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.tmtestBanner__title{
+	font-size: 30px;
+	line-height: 35px;
+	color: inherit;
+}
+.tmtestBanner__title mark{
+	color: #76D48F;
+	background-color: transparent;
+}
+.tmtestBanner__description{
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: auto;
+}
