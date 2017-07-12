@@ -2,6 +2,8 @@ import React from 'react';
 import PrlxSceneApp from '../containers/PrlxSceneApp';
 import PrlxLayer from '../containers/PrlxLayer';
 
+import bannerStyles from '../css/banner.css';
+
 function Banner(props) {
 	const {
 		title,

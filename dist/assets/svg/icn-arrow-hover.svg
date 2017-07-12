@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="11px" viewBox="0 0 8 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 20 0 20 20 0 20"></polygon>
+    </defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Styles" transform="translate(-159.000000, -206.000000)">
+            <g id="Sorting" transform="translate(40.000000, 202.000000)">
+                <g id="Normal">
+                    <g id="icn-arrow" transform="translate(123.000000, 10.000000) scale(1, -1) translate(-123.000000, -10.000000) translate(113.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="cont"></g>
+                        <polygon id="arrow" fill="#0d47a1" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(10.000000, 10.500000) rotate(90.000000) translate(-10.000000, -10.500000) " points="8.49 14.5 8.49 11.5 15.5 11.5 15.5 9.5 8.49 9.5 8.49 6.5 4.5 10.5"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

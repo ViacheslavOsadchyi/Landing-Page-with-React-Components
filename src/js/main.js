@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import SliderApp from '../containers/SliderApp';
-import BannerApp from '../containers/BannerApp';
+import Banner from '../components/Banner';
+import HousesApp from '../containers/HousesApp';
 import main from '../css/main.css';
 
 let sliderNodes = document.querySelectorAll('.slider'),
@@ -31,7 +32,8 @@ let sliderNodes = document.querySelectorAll('.slider'),
 			img: 	'/assets/screenshots/slide-3.png'
 		},
 	],
-	bannerNodes = document.querySelectorAll('.prlxBanner');
+	bannerNodes = document.querySelectorAll('.prlxBanner'),
+	housesNodes = document.querySelectorAll('.houses');
 
 Array.prototype.forEach.call(sliderNodes, (el)=>{
 	ReactDOM.render(<SliderApp slides={slides} />, el);
@@ -42,10 +44,14 @@ Array.prototype.forEach.call(bannerNodes, (el)=>{
 		title,
 		description
 	} = el.dataset;
-	ReactDOM.render(<BannerApp title={title} description={description} />, el, ()=>{
+	ReactDOM.render(<Banner title={title} description={description} />, el, ()=>{
 		el.removeAttribute('data-title');
 		el.removeAttribute('data-description');
 	});
+})
+
+Array.prototype.forEach.call(housesNodes, (el)=>{
+	ReactDOM.render(<HousesApp />, el);
 })
 
 

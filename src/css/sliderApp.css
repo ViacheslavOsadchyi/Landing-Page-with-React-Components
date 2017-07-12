@@ -44,6 +44,9 @@
 .tmtestSlider__slideImgHolder{
 	padding-top: 40px;
 }
+.tmtestSlider__slideImg{
+	display: block;
+}
 
 .tmtestSlider__slide.tmtestSlider__slide__guillermo .tmtestSlider__slideTitle{
 	max-width: 320px;

@@ -1,0 +1,64 @@
+/** variables are listed here */
+@import 'vars.css';
+
+.tmTestHousesTable__filter{
+	color: $featured-color;
+}
+.tmTestHousesTable__filter__active{
+	color: $caption-color;
+}
+.tmTestHousesTable__filter__hover{
+	color: $featured-color-2;
+}
+.tmTestHousesTable__caption{
+	font-weight: 700;
+}
+.tmTestHousesTable__houseName,
+.tmTestHousesTable__houseRegion{
+	color: $caption-color;
+}
+.tmTestHousesTable__houseName{
+	font-weight: 700;
+}
+
+.tmTestHousesTable__row{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 20px 0;	
+}
+.tmTestHousesTable__row:not(.tmTestHousesTable__header):not(:last-child){
+	border-bottom: 1px solid #e0e0e0;
+}
+.tmTestHousesTable__column__name,
+.tmTestHousesTable__column__region{
+	width: 25%;
+}
+.tmTestHousesTable__column__characters{
+	width: 50%;
+}
+.tmTestHousesTable__houseResidents{
+	column-count: 3;
+}
+.tmTestHousesTable__filter{
+	display: table;
+	cursor: pointer;
+}
+.tmTestHousesTable__filter>*{
+	display: table-cell;
+	vertical-align: middle;
+}
+.tmTestHousesTable__filter img{
+	display: block;
+	height: 12px;
+	margin-left: 5px;
+}
+
+.housesSection{
+	margin: 75px auto
+}
+.housesSection__title{
+	text-align: center;
+	margin-bottom: 45px;
+}

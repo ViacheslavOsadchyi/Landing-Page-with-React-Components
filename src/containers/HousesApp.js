@@ -2,12 +2,12 @@ import React, {Component} from 'react';
 import {createStore,applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
-import reducer, {initialState} from '../reducers/sliderReducer';
-import Banner from '../components/Banner';
+import reducer, {initialState} from '../reducers/housesReducer';
+import Houses from './Houses';
 
-import bannerStyles from '../css/bannerApp.css';
+import housesStyles from '../css/housesApp.css';
 
-class BannerApp extends Component {
+class HousesApp extends Component {
 	constructor(props){
 		super(props);
 		this.initialState = Object.assign({},initialState);
@@ -18,12 +18,10 @@ class BannerApp extends Component {
 		);
 	}
 	render(){
-		return (
-			<Provider store={this.store}>
-				<Banner {...this.props} />
-			</Provider>
-		);
+		return 	<Provider store={this.store}>
+					<Houses />
+				</Provider>;
 	}
 }
 
-export default BannerApp;
+export default HousesApp;
