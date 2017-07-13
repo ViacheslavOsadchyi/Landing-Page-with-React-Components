@@ -12,7 +12,7 @@ class SliderApp extends Component {
 		super(props);
 		this.initialState = Object.assign({},initialState);
 
-		// FIXME: needed for next slide index calculations
+		// needed for next slide index calculations
 		this.initialState.slides.lastSlideIndex = this.props.slides.length - 1;
 		this.store = createStore(
 			reducer,

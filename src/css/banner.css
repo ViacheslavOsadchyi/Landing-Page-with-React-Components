@@ -35,3 +35,35 @@
 	line-height: 20px;
 	margin-bottom: auto;
 }
+
+@media screen and (max-width: 991px) {
+	.tmtestBanner__prlxSceneContainer{
+		right: 0;
+		left: auto;
+	}	
+}
+
+@media screen and (max-width: 767px) {
+	.tmtestBanner{
+		flex-direction: column;			
+	}
+	.tmtestBanner__prlxScene{
+		order: 2;
+		padding-bottom: 50%;	
+	}
+	.tmtestBanner__content{
+		order: 1;
+		width: 100%;
+		padding: 40px 20px 0;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.tmtestBanner__prlxScene{
+		padding-bottom: 70%;	
+	}
+	.tmtestBanner__prlxSceneContainer{
+		right: auto;
+		left: 0;
+	}
+}

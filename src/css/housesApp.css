@@ -26,20 +26,24 @@
 	width: 100%;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	align-items: center;
 	padding: 20px 0;	
 }
 .tmTestHousesTable__row:not(.tmTestHousesTable__header):not(:last-child){
 	border-bottom: 1px solid #e0e0e0;
 }
-.tmTestHousesTable__column__name,
-.tmTestHousesTable__column__region{
-	width: 25%;
+.tmTestHousesTable__column{
+	padding: 0 10px;
+	width: 33.33333%;
 }
-.tmTestHousesTable__column__characters{
-	width: 50%;
+.tmTestHousesTable__column:first-child{
+	padding-left: 0;
+}
+.tmTestHousesTable__column:last-child{
+	padding-right: 0;
 }
 .tmTestHousesTable__houseResidents{
-	column-count: 3;
+	column-count: 1;
 }
 .tmTestHousesTable__filter{
 	display: table;
@@ -61,4 +65,23 @@
 .housesSection__title{
 	text-align: center;
 	margin-bottom: 45px;
+}
+
+
+@media (min-width: 768px) {
+	.tmTestHousesTable__houseResidents{
+		column-count: 2;
+	}
+	.tmTestHousesTable__column__name,
+	.tmTestHousesTable__column__region{
+		width: 25%;
+	}
+	.tmTestHousesTable__column__characters{
+		width: 50%;
+	}
+}
+@media (min-width: 1200px) {
+	.tmTestHousesTable__houseResidents{
+		column-count: 3;
+	}	
 }

@@ -9,3 +9,17 @@
 
 @import 'typography.css';
 @import 'pageHeader.css';
+
+body{
+	position: relative;
+}
+#docHeightChangeListener{
+	visibility: hidden;
+	pointer-events: none;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
