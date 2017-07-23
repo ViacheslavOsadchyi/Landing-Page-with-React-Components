@@ -38,5 +38,9 @@
     "reset-css": "^2.2.0",
     "style-loader": "^0.18.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
+  }
 }
