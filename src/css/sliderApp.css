@@ -16,10 +16,10 @@
 .tmtestSlider__slidesMovingTransition{
 	transition: transform 0.5s $easeInOutBack;
 }
-.tmtestSlider__slides.tmtestSlider__slides__move_backward{
+.tmtestSlider__slides.tmtestSlider__slides--move-backward{
 	transform: translate3d(0,0,0);
 }
-.tmtestSlider__slides.tmtestSlider__slides__move_forward{
+.tmtestSlider__slides.tmtestSlider__slides--move-forward{
 	transform: translate3d(-200%,0,0);
 }
 .tmtestSlider__slide{
@@ -48,7 +48,7 @@
 	display: block;
 }
 
-.tmtestSlider__slide.tmtestSlider__slide__guillermo .tmtestSlider__slideTitle{
+.tmtestSlider__slide.tmtestSlider__slide--guillermo .tmtestSlider__slideTitle{
 	max-width: 320px;
 }
 

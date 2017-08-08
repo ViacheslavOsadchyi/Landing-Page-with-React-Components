@@ -34,7 +34,7 @@ class Slides extends Component {
 		});
 		let className = 'tmtestSlider__slides';
 		className += this.props.movingTransitionEnabled ? ' tmtestSlider__slidesMovingTransition' : '';
-		className += this.props.moving !== 'nowhere' ? ' tmtestSlider__slides__move_' + this.props.moving : '';
+		className += this.props.moving !== 'nowhere' ? ' tmtestSlider__slides--move-' + this.props.moving : '';
 		return <div ref={(slidesContainer)=>{
 					this.slidesContainer = slidesContainer;
 				}} className={className}> 	

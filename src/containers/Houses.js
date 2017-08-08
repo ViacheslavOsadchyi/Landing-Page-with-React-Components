@@ -17,34 +17,34 @@ class Houses extends Component {
 				characters
 			} = houseData;
 			return 	<div key={name} className='tmTestHousesTable__row'>
-						<div className='tmTestHousesTable__column tmTestHousesTable__column__name'>
+						<div className='tmTestHousesTable__column tmTestHousesTable__columnName'>
 							<div className='tmTestHousesTable__houseName'>
 								{name}
 							</div>
 						</div>
-						<div className='tmTestHousesTable__column tmTestHousesTable__column__region'>
+						<div className='tmTestHousesTable__column tmTestHousesTable__columnRegion'>
 							<div className='tmTestHousesTable__houseRegion'>
 								{region}
 							</div>
 						</div>
-						<div className='tmTestHousesTable__column tmTestHousesTable__column__characters'>
+						<div className='tmTestHousesTable__column tmTestHousesTable__columnCharacters'>
 							<HouseResidents house={name} characters={characters} />
 						</div>
 					</div>
 		});
 		return 	<div className='tmTestHousesTable'>
 					<div className='tmTestHousesTable__row tmTestHousesTable__header'>
-						<div className='tmTestHousesTable__column tmTestHousesTable__column__name'>
+						<div className='tmTestHousesTable__column tmTestHousesTable__columnName'>
 							<div className='tmTestHousesTable__caption'>
 								<HousesFilter field='name' caption='Name of the house' />
 							</div>
 						</div>
-						<div className='tmTestHousesTable__column tmTestHousesTable__column__region'>
+						<div className='tmTestHousesTable__column tmTestHousesTable__columnRegion'>
 							<div className='tmTestHousesTable__caption'>							
 								<HousesFilter field='region' caption='Region' />
 							</div>
 						</div>
-						<div className='tmTestHousesTable__column tmTestHousesTable__column__characters'>
+						<div className='tmTestHousesTable__column tmTestHousesTable__columnCharacters'>
 							<div className='tmTestHousesTable__caption'>							
 								Residents
 							</div>

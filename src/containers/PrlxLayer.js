@@ -12,7 +12,7 @@ class PrlxLayer extends Component {
 			endPoint,
 			stage
 		} = this.props;
-		const className = `prlxScene__layer prlxScene__layer__type_${name}`;
+		const className = `prlxScene__layer prlxScene__layer--type-${name}`;
 		const currentParallax = stage * parseInt(endPoint);
 		const style = {
 			transform: `translate3d(0,${currentParallax}px,0)`

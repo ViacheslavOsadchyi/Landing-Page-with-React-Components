@@ -2,7 +2,7 @@ import React from 'react';
 
 function Slide (props) {
 	const commonSlideClassName = 'tmtestSlider__slide';
-	const slideClassName = props.extraClass ? commonSlideClassName + ` tmtestSlider__slide__${props.extraClass}` : commonSlideClassName;
+	const slideClassName = props.extraClass ? commonSlideClassName + ` tmtestSlider__slide--${props.extraClass}` : commonSlideClassName;
 	return 	<div className={slideClassName}>
 				<div className='tmtestSlider__slideMarkup'>
 					<div className='tmtestSlider__slideImgHolder'>

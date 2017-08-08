@@ -41,8 +41,8 @@ class HousesFilter extends Component{
 		} = this.props;
 		let className = 'tmTestHousesTable__filter',
 			imgSrc = this.getStateImgSrc();
-		className += active ? ' tmTestHousesTable__filter__active' : '';
-		className += this.state.hover ? ' tmTestHousesTable__filter__hover' : '';
+		className += active ? ' tmTestHousesTable__filter--active' : '';
+		className += this.state.hover ? ' tmTestHousesTable__filter--hover' : '';
 		return 	<div ref={(filterEl)=>{
 					this.filterEl = filterEl;
 				}} className={className}>

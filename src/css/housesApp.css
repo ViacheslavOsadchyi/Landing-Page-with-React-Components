@@ -4,10 +4,10 @@
 .tmTestHousesTable__filter{
 	color: $featured-color;
 }
-.tmTestHousesTable__filter__active{
+.tmTestHousesTable__filter--active{
 	color: $caption-color;
 }
-.tmTestHousesTable__filter__hover{
+.tmTestHousesTable__filter--hover{
 	color: $featured-color-2;
 }
 .tmTestHousesTable__caption{
@@ -72,11 +72,11 @@
 	.tmTestHousesTable__houseResidents{
 		column-count: 2;
 	}
-	.tmTestHousesTable__column__name,
-	.tmTestHousesTable__column__region{
+	.tmTestHousesTable__columnName,
+	.tmTestHousesTable__columnRegion{
 		width: 25%;
 	}
-	.tmTestHousesTable__column__characters{
+	.tmTestHousesTable__columnCharacters{
 		width: 50%;
 	}
 }

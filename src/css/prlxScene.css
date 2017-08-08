@@ -12,17 +12,17 @@
 	display: block;
 }
 
-.prlxScene__layer__type_lines{
+.prlxScene__layer--type-lines{
 	top: 0;
 	margin-top: -55px;
 	margin-left: 56px;
 }
-.prlxScene__layer__type_box{
+.prlxScene__layer--type-box{
 	top: 100%;
 	margin-top: -175px;
 	margin-left: -30px;
 }
-.prlxScene__layer__type_heart{
+.prlxScene__layer--type-heart{
 	top: 0;
 	margin-top: 90px;
 	margin-left: 92px;
